@@ -27,6 +27,10 @@
 
         .mui-icon {
           margin: 0 10px 0 10px;
+
+          &:hover {
+            border-bottom: 1px solid black;
+          }
         }
       }
     }
