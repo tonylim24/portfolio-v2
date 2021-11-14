@@ -31,12 +31,16 @@
       }
     }
 
-    .header-navigation {
+    .header-navigation-list {
       display: flex;
       height: 30px;
       min-height: 30px;
       justify-content: space-between;
       margin: 10px 20vw 10px 20vw;
+    }
+
+    .header-navigation-menu {
+      display: none;
     }
   }
 }
