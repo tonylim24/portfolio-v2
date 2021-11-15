@@ -30,6 +30,7 @@
 
           &:hover {
             border-bottom: 1px solid black;
+            transition: border-width 0.6s linear;
           }
         }
       }
@@ -40,7 +41,13 @@
       height: 30px;
       min-height: 30px;
       justify-content: space-between;
-      margin: 10px 20vw 10px 20vw;
+      margin: 0 20vw 0 20vw;
+
+      .navigation-content {
+        &:hover {
+          border-bottom: 1px solid black;
+        }
+      }
     }
 
     .header-navigation-menu {

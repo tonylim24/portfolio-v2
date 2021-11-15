@@ -8,11 +8,12 @@ function App() {
       <div className="header-container">
         <Header />
       </div>
-      {/* 
+
       <div className="body-container">
         <Landing />
       </div>
 
+      {/* 
       <div className="footer-container">
         <Footer />
       </div> */}
